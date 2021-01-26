@@ -3,115 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdelrahman Elazrag - personal site</title>
+    <title>Abdelrahman Elazrag</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">  
+
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/personal-website/index.html">Home</a></li>
-            <li><a href="/personal-website/hobbies.html">Hobbies</a></li>
-            <li><a href="/personal-website/contact-me.html">Contact me</a></li>
-        </ul>
-    </nav>
-    <div>
-        <table cellspacing="15">
-            <tr>
-                <td>
-                    <img src="/personal-website/imgs/Abdelrahman-Profile.png" alt="Abdelrahman Elazrag Profile Image">
-                </td>
-                <td>
-                    <h1>Abdelrahman Elazrag</h1>
-                    <p><em>Fullstack Developer</em></p>
-                    <p>
-                        Passionate for scalable web applications and working across the full stack,
-                        I have build x web apps from the ground-up using x, y and z.
-                    </p>            
-                </td>
-            </tr>
-        </table>
+
+    <div class="header">
+        <img class="top-cloud" src="imgs/cloud.png" alt="cloud">
+        <h1>I'm Abdelrahman,</h1>
+        <h2>a <span class="fullstack">full-stack</span> web developer</h2>
+        <img class="bottom-cloud" src="imgs/cloud.png" alt="cloud">
+        <img src="imgs/mountain.png" alt="mountain">
+    </div>
+
+    <div class="main">
+        <div class="profile">
+          <img src="imgs/Abdelrahman-Profile.png" alt="Abdelrahman Profile Image">
+          <h2>Hello.</h2>
+          <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+        </div>
         
-        <hr size="3" noshade>
-    </div>
-    
-    <div>
-        <h3>Personal Information:</h3>
-        <p><strong>Date of birth:</strong> 24 Jan 1993</p>   
-        <p><strong>Nationality:</strong> Sudan</p>        
-        <p><strong>Marital Status:</strong> Single</p>
-        <p><strong>Religion:</strong> Islam</p>
-        <p><strong>Available for work:</strong> Immediately</p>
-        <p><strong>site:</strong> <a href="https://github.com/blu301?tab=repositories">github</a></p>
-        <p><a href="/contact-me.html">Contact me</a></p>
-        <hr size="3" noshade>
-    </div>
-
-    <div>
-        <h3>Education:</h3>
-        <ul>
-            <li>
-                <strong>Bachelor degree in Electronic Engineering:</strong><small> 2011 - 2016</small>
-                <ul>
-                    <li><p>Majoring in Computer and Network Engineering.</p></li>
-                </ul>
-            </li>
-        </ul>
-        <hr size="3" noshade>
-    </div>
-
-    <div>
-        <h3>Skills:</h3>
-        <table>
-            <tr>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>HTML5</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Bootstrap</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>JQuery</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>CSS3</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>JS</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Vue.js</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
         <hr>
-    </div>
+        
+        <div class="skills">
+          <h2>My Skills.</h2>
 
-    <div>
-        <h3>Projects:</h3>
-        <p>Kindly visit my git repositories <a href="https://github.com/blu301?tab=repositories">here</a> to get a full view of these projects.</p>
-            <ol>
-                <li><a href="#">this</a></li>
-                <li><a href="#">that</a></li>
-                <li><a href="#">these</a></li>
-            </ol>
-        <hr size="3" noshade>
-    </div>
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/html.png" alt="Html5">
+            <h3>Html5</h3>
+          </div>
 
-    
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/css-3.png" alt="Css3">
+            <h3>Css3</h3>
+          </div>
 
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/bootstrap.png" alt="Bootstrap4">
+            <h3>Bootstrap4</h3>
+          </div>
 
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/js.png" alt="Js">
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/jquery.png" alt="JQuery">
+            <h3>JQuery</h3>
+          </div>
+
+          <div class="skill-row">
+            <img class="skill-img" src="imgs/mysql.png" alt="MySQL">
+            <h3>MySQL</h3>
+          </div>
+        </div>
+       
+        <hr>
+       
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:abdelrahman.elazrag@gmail.com">CONTACT ME</a><br>
+          
+        </div>
+      </div>
+      
+      
+      <div class="footer">
+        <a class="footer-link" href="https://github.com/blu301/">Git</a>
+        <p>© 2021 Abdelrahman Elazrag.</p>
+      </div>
 </body>
 </html>
